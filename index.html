@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src = "movie.js"></script>
+    <script defer src = "script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link href='https://fonts.googleapis.com/css?family=Bebas Neue' rel='stylesheet'>
+
+    
+
+    <title>Winc Movies</title>
+</head>
+<body>
+    <header>
+        <h1>Winc Movies</h1>
+    </header>
+
+    <nav>
+      <div>
+        <input type="radio" id="all-filter" name="filter" value="allmovies"
+                checked>
+        <label for="newest-filter">All movies</label>
+      </div>
+
+        <div>
+        <input type="radio" id="newest-filter" name="filter" value="newestmovies">
+        <label for="newest-filter">Newest movies</label>
+      </div>
+  
+      <div>
+        <input type="radio" id="avengers-filter" name="filter" value="avengers">
+        <label for="avengers-filter">Avenger movies</label>
+      </div>
+  
+      <div>
+        <input type="radio" id="xmen-filter" name="filter" value="men">
+        <label for="xmen-filter">X-men movies</label>
+      </div>
+
+      <div>
+        <input type="radio" id="princess-filter" name="filter" value="princess">
+        <label for="princess-filter">Princess movies</label>
+      </div>
+
+      <div>
+        <input type="radio" id="batman-filter" name="filter" value="Batman">
+        <label for="batman-filter">Batman movies</label>
+      </div>
+    </nav>
+
+    <div class="search-bar">
+      <input id="searchbar" type="search"
+      name="search" placeholder="Search movie..">
+    </div>
+
+
+    <main id="main-body">
+        <ul id="movie-container"></ul>
+    </main>
+
+
+    <footer>©️ Copyright - Jón Jonker - 2022</footer>
+    
+</body>
+</html>
